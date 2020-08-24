@@ -3,11 +3,11 @@
 ## Table of Contents
 
 - [Cross-squad Documentation](#cross-squad-documentation)
-  - [Deployed site URLs](#deployed-site-urls)
-  - [Git Best Practices](#git-best-practices)
-    - [Branch management](#branch-management)
-    - [Pull request](#pull-request)
-  - [Prettier](#prettier)
+  1. [Deployed site URLs](#deployed-site-urls)
+  2. [Git Best Practices](#git-best-practices)
+     1. [Branch management](#branch-management)
+     2. [Pull request](#pull-request)
+  3. [Prettier](#prettier)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
