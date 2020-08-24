@@ -1,3 +1,5 @@
+# Cross-squad Documentation
+
 - [Cross-squad Documentation](#cross-squad-documentation)
   - [Deployed site URLs](#deployed-site-urls)
   - [Git Best Practices](#git-best-practices)
@@ -6,8 +8,6 @@
   - [Prettier](#prettier)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-# Cross-squad Documentation
 
 ## Deployed site URLs
 
