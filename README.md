@@ -8,6 +8,8 @@
 
 ## Git Best Practices
 
+### Branch management
+
 Branches should be made on a per-feature basis. That can be one file, or one
 function on a file, what constitutes a feature is the kind of thing that is hard
 to define, but you know it when you see it. If working on the same file as
@@ -16,6 +18,16 @@ feature the same, so make sure you both agree on what constitutes the features
 you are both working on, try not to be working on the same part of the same file
 with another person. As long as you work on different parts of the file, you
 should be able to work on a file with another person without merge conflicts.
+
+When pulling a branch from the remote repo (`origin`) that has never been pulled on your local repo, for example when pulling another person's branch to edit their pull request, do not use `git checkout -b branch_name` `git checkout branch_name`. This will create a new branch that does not have any of the changes from the remote repo. Instead, checkout the branch with
+
+```sh
+git checkout origin/branch_name
+```
+
+The reference to `origin` assures you pull the branch from the remote.
+
+### Pull request
 
 When reviewing a pull request, be sure to check all the changes made and any
 tests that are failing. After reviewing a pull request, if you approve it you
