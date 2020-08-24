@@ -1,5 +1,7 @@
 # Cross-squad Documentation
 
+## Table of Contents
+
 - [Cross-squad Documentation](#cross-squad-documentation)
   - [Deployed site URLs](#deployed-site-urls)
   - [Git Best Practices](#git-best-practices)
