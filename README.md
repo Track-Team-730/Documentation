@@ -29,4 +29,26 @@ branch. This helps to prevent people from accidentally working on or branching
 from a stale branch. It also prevents the repo from ending up with massive
 numbers of branches.
 
+Before starting a new branch, review the open pull requests and approve and
+merge any that you feel are ready. This assures you are making the new branch
+from the latest possible version of master. Also, to make sure your local repo
+is as up-to-date as possible, run these commands before making the new branch:
+
+```sh
+git checkout master
+git fetch --prune origin
+git pull
+```
+
+The `--prune` option deletes any branches on your local repo that have been
+delete on the remote repo. This is usually best practice to keep you from
+eventually having dozens of stale branches on your computer, however if you feel
+you need one of the old branches for now you can omit this option.
+
+`git fetch` updates the git index on your local repo, but it does not pull in
+the latest version of the files. This is what the `git pull` command does. If
+you think of the git index as being similar to the index in the back of a book,
+you can think of `git fetch` as updating the back of the book, and `git pull` as
+updating the front.
+
 ## Prettier
