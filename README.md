@@ -24,6 +24,9 @@ case you should have your changes reviewed like any other PR. Github has an
 option to merge the pull request you are reviewing near the bottom of the first
 page of the PR. After merging the pull request, there will be a button in the
 same place the merge button was to delete the branch. Unless the original
-requester requested otherwise in their description you should always delete the branch. This helps to prevent people from accidentally working on or branching from a stale branch. It also prevents the repo from ending up with massive numbers of branches.
+requester requested otherwise in their description you should always delete the
+branch. This helps to prevent people from accidentally working on or branching
+from a stale branch. It also prevents the repo from ending up with massive
+numbers of branches.
 
 ## Prettier
