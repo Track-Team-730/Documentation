@@ -43,11 +43,11 @@ The reference to `origin` assures you pull the branch from the remote.
 
 Before starting a new branch, review the open pull requests and approve and
 merge any that you feel are ready. This assures you are making the new branch
-from the latest possible version of master. Also, to make sure your local repo
+from the latest possible version of main. Also, to make sure your local repo
 is as up-to-date as possible, run these commands before making the new branch:
 
 ```sh
-git checkout master
+git checkout main
 git fetch --prune origin
 git pull
 ```
