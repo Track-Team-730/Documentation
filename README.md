@@ -30,7 +30,10 @@ you are both working on, try not to be working on the same part of the same file
 with another person. As long as you work on different parts of the file, you
 should be able to work on a file with another person without merge conflicts.
 
-When pulling a branch from the remote repo (`origin`) that has never been pulled on your local repo, for example when pulling another person's branch to edit their pull request, do not use `git checkout -b branch_name` `git checkout branch_name`. This will create a new branch that does not have any of the changes from the remote repo. Instead, checkout the branch with
+When pulling a branch from the remote repo (`origin`) that has never been pulled
+on your local repo, for example when pulling another person's branch to edit
+their pull request, do not use `git checkout -b branch_name` `git checkout branch_name`. This will create a new branch that does not have any of the
+changes from the remote repo. Instead, checkout the branch with
 
 ```sh
 git checkout origin/branch_name
